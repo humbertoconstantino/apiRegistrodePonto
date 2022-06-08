@@ -6,7 +6,7 @@ var register = false
 
 app.post('/register', (req, res) =>{
     this.register = true
-    res.send('')
+    res.send('Pronto para registrar')
 }) 
 
 app.get('/', (req, res) =>{
